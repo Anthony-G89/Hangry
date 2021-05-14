@@ -6,9 +6,9 @@ function jumbotron() {
     return (
         <div>
             <header>
-                <h1>
-                    Hello
-                </h1>
+                <div>
+                    <h1>HaNgRy!</h1>
+                </div>
             </header>
         </div>
     )

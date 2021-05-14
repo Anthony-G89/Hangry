@@ -1,0 +1,18 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    background-color: rosybrown;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+h1 {
+    text-align: center;
+}
