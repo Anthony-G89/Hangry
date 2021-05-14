@@ -16,16 +16,19 @@
     max-width: 490px;
     position: relative;
     top: 40px;
-    left: 95px;
+    left: 85px;
     background-color: salmon;
+    border-radius: 3px;
+    
 }
 
 .userInput {
     position: absolute;
     top: 28px;
-    width: 450px;
+    width: 456px;
     font-family: 'Poppins', sans-serif;
     padding: 5px 0px;
+    text-align: center;
 
 }
 
