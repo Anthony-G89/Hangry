@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.searchContainer {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    height: 200px;
+    width: 100%;
+    max-width: 490px;
+    position: relative;
+    top: 40px;
+    left: 95px;
+    background-color: salmon;
+}
+
+.userInput {
+    position: absolute;
+    top: 28px;
+    width: 450px;
+    font-family: 'Poppins', sans-serif;
+    padding: 5px 0px;
+
+}
+
+.formType {
+    position: absolute;
+    top: 90px;
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.distanceType {
+    position: absolute;
+    right: 50px;
+    top: 92px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.searchBtn {
+    position: absolute;
+    left: 172px;
+    bottom: 20px;
+    padding: 3px 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    box-shadow: 2px 5px 7px rgba(0, 0, 0, 0.3);
+}
+
+.searchBtn:hover {
+    background-color: rgb(88, 82, 82);
+    color: white;
+}
