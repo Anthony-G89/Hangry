@@ -6,7 +6,7 @@ function searchResults ({projectInfo}) {
         <div className={"col-lg-3 searchResults"}>
            {
                projectInfo.map((detail , index) =>(
-                   <li key={index} className={"resultInfo"}>{detail.Description}</li>
+                   <li key={index} className={"resultInfo"}>{detail.Description}<hr></hr></li>
                    
                ))
            }
