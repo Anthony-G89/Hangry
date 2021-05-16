@@ -1,10 +1,15 @@
 import React from "react";
 import "./style.css";
 
-function searchResults () {
+function searchResults ({projectInfo}) {
     return (
         <div className={"col-lg-3 searchResults"}>
-            <h2>Hello</h2>
+           {
+               projectInfo.map((detail , index) =>(
+                   <li key={index} className={"resultInfo"}>{detail.Description}</li>
+                   
+               ))
+           }
 
         </div>
     )
