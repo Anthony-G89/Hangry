@@ -8,17 +8,21 @@ function searchBar() {
         <div className={"col-lg-3 searchContainer"}>
             <input className={"userInput"} type={"text"} placeholder={"Enter your city..."} />
 
-            <select className={"formType"} aria-label={"Default select example"}>
-                <option value={"1"}>Resturants</option>
-                <option value={"2"}>Bars</option>
-                <option value={"3"}>Events</option>
-            </select>
 
-            <select className={"distanceType"} aria-label={"Distances"}>
-                <option value={"oneM"}>5 Miles</option>
-                <option value={"twoM"}>10 Miles</option>
-                <option value={"threeM"}>15 Miles</option>
-            </select>
+
+            <div className={"selecterContainer"}>
+                <select className={"formType"} aria-label={"Default select example"}>
+                    <option value={"1"}>Resturants</option>
+                    <option value={"2"}>Bars</option>
+                    <option value={"3"}>Events</option>
+                </select>
+
+                <select className={"distanceType"} aria-label={"Distances"}>
+                    <option value={"oneM"}>5 Miles</option>
+                    <option value={"twoM"}>10 Miles</option>
+                    <option value={"threeM"}>15 Miles</option>
+                </select>
+            </div>
 
             <button className={"searchBtn"} type={"button"}>Search</button>
 

@@ -12,9 +12,9 @@
      position: absolute;
      left: 10px;
      top: 25em;
-     background: #0a93c1;  /* fallback for old browsers */
-     background: -webkit-linear-gradient(to right, #fff, #0a93c1);  /* Chrome 10-25, Safari 5.1-6 */
-     background: linear-gradient(to right, #fff, #0a93c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background: #0a93c1; 
+     background: -webkit-linear-gradient(to right, #fff, #0a93c1);  
+     background: linear-gradient(to right, #fff, #0a93c1); 
      
     height: 100vh;
      max-width: 490px;
@@ -23,6 +23,11 @@
      overflow-y: auto;
      padding: 15px;
      margin-bottom: 7px;
+     cursor: pointer;
+ }
+
+ .searchResults:hover {
+     text-decoration: underline;
  }
 
  .resultInfo {
@@ -37,3 +42,29 @@
      background-color: #918f8f;
      
  }
+
+
+
+
+ /* Media Queries */
+
+ @media screen and (min-width:971px) and (max-width: 1048px) {
+    .searchResults {
+        width: 35%;
+    }
+}
+
+@media screen and (min-width:676px) and (max-width: 970px) {
+    .searchResults {
+        /* overflow-x: hidden; */
+        max-width: 100vh;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 675px) {
+    .searchResults {
+        max-width: 68vh;
+        height: auto;
+    }
+}

@@ -17,12 +17,10 @@
     position: relative;
     top: 40px;
     left: 10px;
-    background: #0a93c1;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fff, #0a93c1);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fff, #0a93c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: #0a93c1;  
+    background: -webkit-linear-gradient(to right, #fff, #0a93c1); 
+    background: linear-gradient(to right, #fff, #0a93c1); 
     border-radius: 3px;
-    
 }
 
 .userInput {
@@ -75,3 +73,55 @@ background: linear-gradient(to right, #fff, #0a93c1); /* W3C, IE 10+/ Edge, Fire
     color: black;
     border: 2px solid black;
 }
+
+
+/* Media Queries */
+
+@media screen and (min-width:971px) and (max-width: 1048px) {
+    .searchContainer {
+        width: 35%;
+    }
+    .userInput {
+        width: 89%;
+        min-width: 200px;
+    }
+    .searchBtn {
+        left: 95px;
+    }
+    .searchResults {
+        width: 35%;
+    }
+}
+
+
+@media screen and (min-width:676px) and (max-width: 970px) {
+    .searchContainer {
+        width: 98%;
+        position: absolute;
+        top: 160px;
+        max-width: 100vh;
+    }
+    .userInput {
+        left: 26%;
+    }
+    .searchBtn {
+        left: 42%;
+    }
+    
+}
+
+@media screen and (min-width:500px) and (max-width: 675px) {
+    .searchContainer {
+        max-width: 68vh;
+    }
+    .userInput {
+        left: 24%;
+        width: 50%;
+    }
+    .searchBtn {
+        left: 37%;
+    }
+    
+}
+
+

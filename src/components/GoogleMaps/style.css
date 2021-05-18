@@ -13,13 +13,29 @@
     display: flex;
     position: absolute;
     justify-content: center;
-    background: #0a93c1;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fff, #0a93c1);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fff, #0a93c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0a93c1;  
+    background: -webkit-linear-gradient(to right, #fff, #0a93c1); 
+    background: linear-gradient(to right, #fff, #0a93c1); 
 
     box-shadow: 10px 5px 32px;
     right: 0;
     top: 9em;
     height: 100vh;
     border-radius: 3px;
+}
+
+
+/* Media Queries */
+
+@media screen and (min-width:971px) and  (max-width:1048px) {
+    .googleMaps {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 970px) {
+    .googleMaps {
+        display: none;
+    }
+    
 }
