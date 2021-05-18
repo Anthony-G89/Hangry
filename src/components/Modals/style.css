@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.modal-wrapper {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 7;
+    transition: .7s ease-in-out;
+}
+.modal-background {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.modal-box {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+    overflow-y: auto;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: center;
+    color: black;
+    text-decoration: underline;
+    min-height: 8vh;
+    margin-top: 25px;
+    text-shadow: 10px 7px 13px rgba(0, 0, 0, 0.6);
+}
+
+
+
+.ModalPicture {
+    width: 90%;
+    height: 90%;
+    box-shadow: 9px 14px 8px rgb(0,0,0,0.5) ,-8px -6px 8px rgb(0,0,0,0.5);
+    padding: 20px;
+
+}
+.closeIcon {
+    position: absolute;
+    top: -7px;
+    right: 16px;
+    z-index: 1 ;
+}
+.closeBtn {
+    font-size: 34px;
+    cursor: pointer;
+    color: #ED213A;
+    text-shadow: 3px 4px 4px rgba(243, 27, 27, 0.849)
+}
+
+.modalContent {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    min-width: 370px;
+    padding: 10px 10px;
+}
+
+.modalText {
+    min-width: 300px;
+    font-weight: 600;
+    text-shadow: 10px 7px 13px rgba(0,0,0,0.6);
+    letter-spacing: 1px;
+    line-height: 32px ;
+    padding-bottom: 35px;
+}
+
+
+
+.usedLanguages {
+    font-family: 'Poppins', sans-serif;
+    color: #272424;
+    position: relative;
+    text-decoration: underline;
+    top: 5rem;
+    text-shadow: 10px 7px 13px rgba(0,0,0,0.6);
+
+}
+
+.iconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 6rem;
+    flex-wrap: wrap;
+}
+
+.languagesIcon {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-top: 15px;
+    margin: 24px 19px;
+    color: black;
+   background-color: rgb(224 221 221);
+   border-radius: 8px;
+   box-shadow: 10px 14px 13px rgba(0, 0, 0, 0.6);
+
+}
+
+.modalFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 8rem;    
+}
+
+.linksTitle {
+    font-family: 'Poppins', sans-serif;
+    color: #272424;
+    text-decoration: underline;
+    text-shadow: 10px 7px 13px rgba(0,0,0,0.6);
+    margin: 40px 0px;
+
+}
+
+.links {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    padding: 5px 17px;
+    background-color: rgba(219, 222, 223, 0.548);
+    margin-bottom: 8px;
+    box-shadow: 7px 10px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.links:hover {
+    background-color: #83b9e4;
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+/* .links::before 
+ {
+    content: " ";
+    display: block;
+    position: absolute;
+    background: #ED213A; 
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
+    background: linear-gradient(to right, #93291E, #ED213A); 
+    height: 3px;
+    width: 100%;
+    transform: scaleX(0);
+    transition: transform 0.5s;
+    -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+.links::before {
+    bottom: 0px;
+    transform-origin: left;
+}
+.links:hover:before {
+    transform: scaleX(1);
+} */
+
+
+
+/*  Media Queries */
+
+@media screen and (min-width:1194px) and (max-width:1537px) {
+    .modal-box {
+        height: 97%;
+        width: 45%;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width:865px) and (max-width:1193px) {
+    .modal-box {
+        height: 97%;
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:864px) {
+    .modal-box {
+        width: 55%;
+    }
+}
+
+@media screen and (min-width:716px) and (max-width:700px) {
+    .modal-box {
+        width: 58%;
+    }
+}
+
+@media screen and (min-width:607px) and (max-width:715px) {
+    .modal-box {
+        width: 65%;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:605px) {
+    .modal-box {
+        width: 82%;
+    }
+}
+
+/* Icons for each project in the Modal */
+
+
+@media screen and (min-width:1116px) and (max-width:1194px) {
+    .languagesIcon {
+        /* width: 10px;
+        height: 80px; */
+        margin: 24px 12px;
+    }
+}
+
+@media screen and (min-width:865px) and (max-width:1115px) {
+    .languagesIcon {
+        width: 86px;
+        height: 86px;
+        margin: 24px 9px;
+    }
+}
+
+@media screen and (min-width:701px) and (max-width:864px) {
+    .languagesIcon {
+        width: 70px;
+        height: 70px;
+        margin:  24px 7px;
+    }
+}
+
+@media screen and (min-width:590px) and (max-width:700px) {
+    .languagesIcon {
+        width: 65px;
+        height: 65px;
+        margin:  24px 7px;
+    }
+}
+@media screen and (min-width:500px) and (max-width:589px) {
+    .languagesIcon {
+        width: 65px;
+        height: 65px;
+        margin: 24px 14px;
+    }
+    .closeIcon {
+        top: -12px;
+        right: 6px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .languagesIcon {
+        width: 60px;
+        height: 60px;
+        margin: 24px 16px;
+    }
+}
+
+
+
+@media screen and (min-width:500px) and (max-width:559px) {
+    .modal-box {
+        width: 81%;
+        overflow-x: hidden;
+    }
+    .modalHeader {
+        margin-top: 14px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .modal-box {
+        width: 90%;
+        padding: 20px 4px;
+        /* height: auto; */
+        overflow-y:auto;
+    }
+    .modalHeader {
+        margin-top: 20px;
+    }
+    .description {
+        margin-top: 12px;
+    }
+}
