@@ -11,7 +11,7 @@
 .modal-background {
     position: fixed;
     top: 0;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     z-index: 2;
     background-color: rgba(0, 0, 0, 0.3);
@@ -151,29 +151,6 @@
 
 
 
-/* .links::before 
- {
-    content: " ";
-    display: block;
-    position: absolute;
-    background: #ED213A; 
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
-    background: linear-gradient(to right, #93291E, #ED213A); 
-    height: 3px;
-    width: 100%;
-    transform: scaleX(0);
-    transition: transform 0.5s;
-    -webkit-box-reflect: below 4px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
-}
-.links::before {
-    bottom: 0px;
-    transform-origin: left;
-}
-.links:hover:before {
-    transform: scaleX(1);
-} */
-
-
 
 /*  Media Queries */
 
@@ -263,7 +240,7 @@
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:499px) {
     .languagesIcon {
         width: 60px;
         height: 60px;
@@ -287,7 +264,6 @@
     .modal-box {
         width: 90%;
         padding: 20px 4px;
-        /* height: auto; */
         overflow-y:auto;
     }
     .modalHeader {

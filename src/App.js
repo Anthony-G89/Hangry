@@ -28,17 +28,18 @@ function App() {
     <div >
       < Jumbotron />
       < SearchContainer />
+
       < SearchResults 
         projectInfo={project}
         ModalWillOpen={openModal} 
 
       />
       <GoogleMap />
+
       < Modals 
       showModal={showModal} 
       closeModal={closeModal}
       />
-
     </div>
   );
 }

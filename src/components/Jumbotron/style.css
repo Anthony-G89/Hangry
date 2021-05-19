@@ -4,20 +4,41 @@
     box-sizing: border-box;
 }
 
+.jumboContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 header {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-    background: #0a93c1;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #fff, #0a93c1);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #fff, #0a93c1); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+    background: #0a93c1;  
+    background: -webkit-linear-gradient(to right, #fff, #0a93c1);  
+    background: linear-gradient(to right, #fff, #0a93c1); 
     width: 98%;
     margin: 0 auto;
     padding: 10px 10px 40px 10px;
     border-radius: 5px;
 }
 
+.projectTitle {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color: black;
+}
+
+
+
+
+/* Media Queries */
+
+
+@media screen and (max-width: 499px) {
+    .jumboContainer {
+        width: 56vh;
+    }
 }

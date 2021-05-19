@@ -8,7 +8,7 @@
 }
 
  .searchResults {
-     box-shadow: 10px 5px 7px rgba(0, 0, 0, 0.5);
+     box-shadow: 10px 20px 7px rgba(0, 0, 0, 0.2);
      position: absolute;
      left: 10px;
      top: 25em;
@@ -66,5 +66,12 @@
     .searchResults {
         max-width: 68vh;
         height: auto;
+    }
+}
+
+
+@media screen and (max-width: 499px) {
+    .searchResults {
+        width: 54vh;
     }
 }

@@ -10,7 +10,7 @@
 
 
 .searchContainer {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.2);
     height: 200px;
     width: 100%;
     max-width: 490px;
@@ -122,6 +122,22 @@
         left: 37%;
     }
     
+}
+
+
+@media screen and (max-width: 499px) {
+    .searchContainer {
+        width: 54vh;
+    }
+    .userInput {
+        width: 51vh;
+    }
+    .searchBtn {
+        left: 158px;
+    }
+    .distanceType {
+        right: 22px;
+    }
 }
 
 

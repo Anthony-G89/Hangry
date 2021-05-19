@@ -4,10 +4,10 @@ import './style.css'
 
 function jumbotron() {
     return (
-        <div>
+        <div className={"jumboContainer"}>
             <header>
                 <div>
-                    <h1>HaNgRy!</h1>
+                    <h1 className={"projectTitle"}>HaNgRy!</h1>
                 </div>
             </header>
         </div>
