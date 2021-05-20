@@ -72,6 +72,8 @@
 /* Media Queries for Mobile */
 @media screen and (max-width: 499px) {
     .searchResults {
+        position: relative;
+        top: 101px;
         width: 54vh;
     }
 }

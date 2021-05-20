@@ -127,7 +127,9 @@
 /* Media Queries for Mobile */
 @media screen and (max-width: 499px) {
     header {
+        position: relative;
         width: 92%;
+
     }
 
     .searchContainer {

@@ -6,7 +6,7 @@ import './style.css'
 function searchBar() {
     return (
         <div className={"col-lg-3 searchContainer"}>
-            <input className={"userInput"} type={"text"} placeholder={"Enter your city..."} />
+            <input className={"userInput"} type={"text"} autoFocus placeholder={"Enter your city..."} />
 
 
 
