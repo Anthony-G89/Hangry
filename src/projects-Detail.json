@@ -53,7 +53,7 @@
     "id": 6,
     "Title": "Code Quiz",
     "picture": "/images/Final-Code-Quiz-Home.png",
-    "Description": "Code quiz is an application that will give you 50 seconds to answer 5 coding question. But beware, for ever wrong question that you get wrong, you'll lose 6 seconds off the timer. Good luck and have fun 😄 when you finish enter your initals to keep track of your score.",
+    "Description": "Code quiz is an application that will give you 60 seconds to answer 5 coding question. But beware, for ever wrong question that you get wrong, you'll lose 6 seconds off the timer. Good luck and have fun 😄 when you finish enter your initals to keep track of your score.",
     "modalPicture": "/images/Final-Code-Quiz-Home.png",
     "Languages": ["/images/html5-Icon.png",  "/images/CSS3-Icon.png", "/images/JavaScript-Icon.png" , "/images/Bootstrap-Icon.png"],
     "GitHubLink": "https://github.com/Anthony-G89/Code-Quiz",

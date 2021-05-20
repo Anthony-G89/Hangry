@@ -138,6 +138,7 @@
     }
     .userInput {
         width: 49vh;
+        min-width: 90%;
     }
     .selecterContainer {
         display: flex;

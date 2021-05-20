@@ -20,6 +20,7 @@ header {
     margin: 0 auto;
     padding: 10px 10px 40px 10px;
     border-radius: 5px;
+    
 }
 
 .projectTitle {
@@ -41,7 +42,11 @@ h1 {
 
 /* Media Queries for Mobile */
 @media screen and (max-width: 499px) {
+    header {
+        min-width: 100%;    
+    }
     .jumboContainer {
         width: 56vh;
+        min-width: 100%;
     }
 }
