@@ -37,6 +37,9 @@ h1 {
 /* Media Queries */
 
 
+
+
+/* Media Queries for Mobile */
 @media screen and (max-width: 499px) {
     .jumboContainer {
         width: 56vh;

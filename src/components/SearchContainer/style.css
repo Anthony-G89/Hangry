@@ -124,13 +124,22 @@
     
 }
 
-
+/* Media Queries for Mobile */
 @media screen and (max-width: 499px) {
+    header {
+        width: 92%;
+    }
+
     .searchContainer {
         width: 54vh;
     }
     .userInput {
-        width: 51vh;
+        width: 49vh;
+    }
+    .selecterContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
     .searchBtn {
         left: 158px;

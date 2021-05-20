@@ -11,12 +11,11 @@ import project from "../src/projects-Detail.json";
 
 
 
-
 function App() {
 
   const [showModal, setShowModal] = useState(false);
-  const closeModal = () => setShowModal(false);
 
+  const closeModal = () => setShowModal(false);
   const openModal =() => {
     setShowModal(true)
   };
@@ -25,7 +24,7 @@ function App() {
 
 
   return (
-    <div >
+    <div className={"mainContainer"} >
       < Jumbotron />
       < SearchContainer />
 

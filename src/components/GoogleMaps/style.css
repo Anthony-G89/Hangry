@@ -46,7 +46,7 @@
 }
 
 
-
+/* Media Queries for Mobile */
 @media screen and (max-width: 499px) {
     .googleMaps {
         display: none;
