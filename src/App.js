@@ -16,8 +16,13 @@ function App() {
   const [showModal, setShowModal] = useState(false);
 
   const closeModal = () => setShowModal(false);
-  const openModal =() => {
+  const openModal = () => {
     setShowModal(true)
+  };
+
+
+  const searchClick = () => {
+    console.log("You clicked on the search button");
   };
 
 
@@ -26,18 +31,21 @@ function App() {
   return (
     <div className={"mainContainer"} >
       < Jumbotron />
-      < SearchContainer />
 
-      < SearchResults 
-        projectInfo={project}
-        ModalWillOpen={openModal} 
-
+      < SearchContainer
+        functionForSearchBtn={searchClick}
       />
+
+      < SearchResults
+        projectInfo={project}
+        ModalWillOpen={openModal}
+      />
+      
       <GoogleMap />
 
-      < Modals 
-      showModal={showModal} 
-      closeModal={closeModal}
+      < Modals
+        showModal={showModal}
+        closeModal={closeModal}
       />
     </div>
   );

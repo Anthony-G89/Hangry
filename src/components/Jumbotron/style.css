@@ -12,10 +12,11 @@
 
 
 header {
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-    background: #0a93c1;  
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    background-color: whitesmoke;
+    /* background: #0a93c1;  
     background: -webkit-linear-gradient(to right, #fff, #0a93c1);  
-    background: linear-gradient(to right, #fff, #0a93c1); 
+    background: linear-gradient(to right, #fff, #0a93c1);  */
     width: 98%;
     margin: 0 auto;
     padding: 10px 10px 40px 10px;

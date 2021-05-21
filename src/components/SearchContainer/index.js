@@ -3,7 +3,10 @@ import React from "react";
 import './style.css'
 
 
-function searchBar() {
+function searchBar({functionForSearchBtn}) {
+
+   
+
     return (
         <div className={"col-lg-3 searchContainer"}>
             <input className={"userInput"} type={"text"} autoFocus placeholder={"Enter your city..."} />
@@ -24,7 +27,7 @@ function searchBar() {
                 </select>
             </div>
 
-            <button className={"searchBtn"} type={"button"}>Search</button>
+            <button onClick={functionForSearchBtn} className={"searchBtn"} type={"button"}>Search</button>
 
         </div>
     )

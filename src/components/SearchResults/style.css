@@ -8,14 +8,14 @@
 }
 
  .searchResults {
-     box-shadow: 10px 20px 7px rgba(0, 0, 0, 0.2);
+     box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);
      position: absolute;
      left: 10px;
      top: 25em;
-     background: #0a93c1; 
+     background-color: whitesmoke;
+     /* background: #0a93c1;  
      background: -webkit-linear-gradient(to right, #fff, #0a93c1);  
-     background: linear-gradient(to right, #fff, #0a93c1); 
-     
+     background: linear-gradient(to right, #fff, #0a93c1);  */
     height: 100vh;
      max-width: 490px;
      width: 100%;
