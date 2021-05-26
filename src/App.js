@@ -20,10 +20,12 @@ function App() {
     setShowModal(true)
   };
 
+ 
+ 
 
-  const searchClick = () => {
-    console.log("You clicked on the search button");
-  };
+  // const searchClick = () => {
+  //   console.log("You clicked on the search button");
+  // };
 
 
 
@@ -33,14 +35,14 @@ function App() {
       < Jumbotron />
 
       < SearchContainer
-        functionForSearchBtn={searchClick}
+        // functionForSearchBtn={searchClick}
       />
 
       < SearchResults
         projectInfo={project}
         ModalWillOpen={openModal}
       />
-      
+
       <GoogleMap />
 
       < Modals

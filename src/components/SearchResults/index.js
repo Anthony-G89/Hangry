@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function searchResults({ projectInfo, ModalWillOpen }) {
+function SearchResults({ projectInfo, ModalWillOpen }) {
     return (
         <div className={"col-lg-3 searchResults"}>
             {
@@ -16,4 +16,4 @@ function searchResults({ projectInfo, ModalWillOpen }) {
     )
 };
 
-export default searchResults;
+export default SearchResults;

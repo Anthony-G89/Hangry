@@ -10,27 +10,35 @@
 }
 
 .googleMaps {
-    display: flex;
-    position: absolute;
-    justify-content: center;
+   position: relative;
     background-color: #fff;
-    /* background: #0a93c1;  
-    background: -webkit-linear-gradient(to right, #fff, #0a93c1);  
-    background: linear-gradient(to right, #fff, #0a93c1);  */
-    box-shadow: -6px 8px 10px rgba(0, 0, 0, 0.1);
-    right: 0;
-    top: 9em;
+    box-shadow: -6px 8px 10px rgb(0 ,0 ,0, 0.1);
+    top: -10em;
+    float: right;
     height: 100vh;
     border-radius: 3px;
 }
 
-#map {
+.googleMapData {
+    position: absolute;
+    top: 20px;
+    height: 600px;
+    width: 100%;
+    left: 0;
+    margin: 0px 15px;
+    box-shadow: -6px 8px 10px rgb(0 ,0 ,0, 0.1);
+}
+
+
+
+
+/* #map {
     width: 50%;
     height: 50vh;
     background-color: rgb(71, 167, 119);
     margin: auto;
     position: relative;
-}
+} */
 
 
 

@@ -3,7 +3,7 @@ import React from "react";
 import './style.css'
 
 
-function searchBar({functionForSearchBtn}) {
+function SearchBar({functionForSearchBtn}) {
 
    
 
@@ -33,4 +33,4 @@ function searchBar({functionForSearchBtn}) {
     )
 };
 
-export default searchBar;
+export default SearchBar;
