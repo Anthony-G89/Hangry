@@ -35,8 +35,6 @@ function Modals({ showModal, closeModal }) {
                                 Mauris volutpat dictum mattis. Proin at nunc at nunc gravida pharetra. Mauris urna lectus, euismod at justo aliquet, mollis dapibus orci. Integer consectetur dui vel nibh lobortis, a dignissim felis sodales. Aliquam et dui sed nunc feugiat ultrices sed tincidunt metus. Nunc et elit non elit malesuada hendrerit. Integer maximus rhoncus mi, non vestibulum diam ultrices at. Sed tellus velit, aliquam vitae maximus eu, vehicula in mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Fusce turpis leo, tincidunt nec mattis at, iaculis nec libero. Nunc varius malesuada diam eu ultricies. Nam nec lib </p>
                         </div>
 
-
-
                         <div className="modalFooter">
                             <h3 className={"linksTitle"}>Modal Footer</h3>
                         </div>

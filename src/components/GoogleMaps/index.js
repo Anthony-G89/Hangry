@@ -3,12 +3,11 @@ import "./style.css";
 
 
 
-function googleMap () {
+function googleMap() {
 
     return (
         <div className={"col-lg-6 googleMaps"}>
-            
-            <div id="map"></div>
+            <div id="map"> </div>
         </div>
     )
 };
